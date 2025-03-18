@@ -7,6 +7,12 @@
 
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    // 添加以下配置
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   }
 }

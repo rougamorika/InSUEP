@@ -6,20 +6,3 @@ export const routes = Object.fromEntries([
   ["/components/", { loader: () => import(/* webpackChunkName: "components_index.html" */"D:/github/InSUEP/docs/.vuepress/.temp/pages/components/index.html.js"), meta: {"title":"Components"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/github/InSUEP/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}

@@ -17,4 +17,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  build: {
+    outDir: 'build' // 构建产物输出到 my-build 目录
+  }
 })
