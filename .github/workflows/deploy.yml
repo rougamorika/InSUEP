@@ -23,6 +23,13 @@ jobs:
         run: rm -rf *
         shell: bash
 
+      # 安装 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'  # 或者你需要的 Node.js 版本
+          cache: 'npm'  # 缓存 npm 依赖
+
       - name: Deploy to Tencent Cloud
         uses: appleboy/ssh-action@master
         with:
