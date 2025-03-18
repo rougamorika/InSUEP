@@ -1,8 +1,8 @@
-import * as clientConfig0 from 'D:/github/InSUEP/docs/.vuepress/.temp/git/config.js'
-import * as clientConfig1 from 'D:/github/InSUEP/docs/.vuepress/.temp/shiki/config.js'
-import * as clientConfig2 from 'D:/github/InSUEP/docs/.vuepress/.temp/sass-palette/load-hope.js'
-import * as clientConfig3 from 'D:/github/InSUEP/docs/.vuepress/.temp/markdown-ext/config.js'
-import * as clientConfig4 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-markdown-hint/lib/client/config.js'
+import * as clientConfig0 from 'D:/github/InSUEP/docs/.vuepress/.temp/shiki/config.js'
+import * as clientConfig1 from 'D:/github/InSUEP/docs/.vuepress/.temp/sass-palette/load-hope.js'
+import * as clientConfig2 from 'D:/github/InSUEP/docs/.vuepress/.temp/markdown-ext/config.js'
+import * as clientConfig3 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-markdown-hint/lib/client/config.js'
+import * as clientConfig4 from 'D:/github/InSUEP/docs/.vuepress/.temp/markdown-tab/config.js'
 import * as clientConfig5 from 'D:/github/InSUEP/docs/.vuepress/.temp/markdown-image/client.js'
 import * as clientConfig6 from 'D:/github/InSUEP/docs/.vuepress/.temp/markdown-stylize/config.js'
 import * as clientConfig7 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
@@ -16,7 +16,6 @@ import * as clientConfig14 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-
 import * as clientConfig15 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import * as clientConfig16 from 'D:/github/InSUEP/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
 import * as clientConfig17 from 'D:/github/InSUEP/docs/.vuepress/.temp/theme-hope/config.js'
-import * as clientConfig18 from 'D:/github/InSUEP/docs/.vuepress/.temp/md-enhance/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -37,5 +36,4 @@ export const clientConfigs = [
   clientConfig15,
   clientConfig16,
   clientConfig17,
-  clientConfig18,
 ].map((m) => m.default).filter(Boolean)

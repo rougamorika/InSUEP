@@ -1,5 +1,5 @@
-import comp from "D:/github/InSUEP/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"首页\",\"lang\":\"en-US\",\"frontmatter\":{},\"readingTime\":{\"minutes\":0.01,\"words\":4},\"filePathRelative\":\"README.md\"}")
+import comp from "D:/github/InSUEP/docs/.vuepress/.temp/pages/.html.vue"
+const data = JSON.parse("{\"path\":\"/.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":\".md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
