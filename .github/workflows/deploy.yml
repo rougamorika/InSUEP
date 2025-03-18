@@ -17,18 +17,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 安装 Node.js (移到 clear 之前)
+      # 安装 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '22'
           cache: 'npm'
 
-      # 安装依赖 (在工作流中)
+      # 安装依赖
       - name: Install Dependencies
         run: npm install
 
-      # 构建 VuePress 站点 (在工作流中)
+      # 构建 VuePress 站点
       - name: Build VuePress Site
         run: npm run build
 
@@ -40,4 +40,7 @@ jobs:
           username: emptydust
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          script: "bash /home/emptydust/deploy.sh"
+          source: docs/.vuepress/dist/
+          target: /home/emptydust/website/insuep/
+          rm: true
+          args: -av --delete --delete-delay
