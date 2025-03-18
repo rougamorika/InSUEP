@@ -13,14 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup SSH
-        uses: webfactory/ssh-action@v1
+      - name: Deploy to Tencent Cloud
+        uses: appleboy/ssh-action@master
         with:
-          host: 1.117.61.247
+          host: ${{ secrets.SERVER_IP }}  # 使用 Secret 存储 IP 地址
           username: emptydust
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22  # 你的 SSH 端口（默认为 22）
-
-      - name: Deploy to Tencent Cloud
-        run: |
-          ssh emptydust@1.117.61.247 -p 22 "bash /home/emptydust/deploy.sh"
+          port: 22
+          script: "bash /home/emptydust/deploy.sh"
