@@ -3,9 +3,8 @@ name: Deploy to Tencent Cloud
 on:
   push:
     branches:
-      - main  # 触发 workflow 的分支
+      - main
 
-# 添加权限声明
 permissions:
   contents: read
   id-token: write
@@ -18,22 +17,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 添加清空工作目录的步骤
-      - name: 清空工作目录
-        run: rm -rf *
-        shell: bash
-
-      # 安装 Node.js
+      # 安装 Node.js (移到 clear 之前)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'  # 或者你需要的 Node.js 版本
-          cache: 'npm'  # 缓存 npm 依赖
+          node-version: '22'
+          cache: 'npm'
 
+      # 安装依赖 (在工作流中)
+      - name: Install Dependencies
+        run: npm install
+
+      # 构建 VuePress 站点 (在工作流中)
+      - name: Build VuePress Site
+        run: npm run build
+
+      # 部署到腾讯云
       - name: Deploy to Tencent Cloud
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SERVER_IP }}  # 使用 Secret 存储 IP 地址
+          host: ${{ secrets.SERVER_IP }}
           username: emptydust
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
