@@ -12,18 +12,26 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: build
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: yarn
-        
-      - name: Build
-        run: yarn build
+      # 安装 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+          cache: 'npm'
 
-      # 利用action把build好的文件上传到服务器/var/www/react-app路径下,需要确认此目录已在服务端创建
+      # 安装依赖
+      - name: Install Dependencies
+        run: npm install
+
+      # 构建 VuePress 站点
+      - name: Build VuePress Site
+        run: npm run build
+
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:  
