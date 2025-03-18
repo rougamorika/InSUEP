@@ -40,7 +40,5 @@ jobs:
           username: emptydust
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          source: docs/.vuepress/dist/
-          target: /home/emptydust/website/insuep/
-          rm: true
-          args: -av --delete --delete-delay
+          script: |
+            scp -r -o StrictHostKeyChecking=no docs/.vuepress/dist/* emptydust@${{ secrets.SERVER_IP }}:/home/emptydust/website/insuep/repo/
