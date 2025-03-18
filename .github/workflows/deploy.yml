@@ -1,0 +1,26 @@
+name: Deploy to Tencent Cloud
+
+on:
+  push:
+    branches:
+      - main  # 触发 workflow 的分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH
+        uses: webfactory/ssh-action@v1
+        with:
+          host: 1.117.61.247
+          username: emptydust
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22  # 你的 SSH 端口（默认为 22）
+
+      - name: Deploy to Tencent Cloud
+        run: |
+          ssh emptydust@1.117.61.247 -p 22 "bash /home/emptydust/deploy.sh"
