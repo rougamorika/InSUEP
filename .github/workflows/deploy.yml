@@ -1,3 +1,4 @@
+
 name: Deploy to Tencent Cloud
 
 on:
@@ -20,5 +21,4 @@ jobs:
           username: emptydust
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          script: |
-            ssh -o StrictHostKeyChecking=no emptydust@${{ secrets.SERVER_IP }} "bash /home/emptydust/deploy.sh"
+          script: "bash /home/emptydust/deploy.sh"
