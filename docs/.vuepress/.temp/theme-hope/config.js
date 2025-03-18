@@ -3,6 +3,8 @@ import { Layout, NotFound, injectDarkMode, setupDarkMode, setupSidebarItems, scr
 import { defineCatalogInfoGetter } from "D:/github/InSUEP/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
 import { resolveComponent } from "vue"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/github/InSUEP/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "D:/github/InSUEP/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
 
 import "D:/github/InSUEP/node_modules/@vuepress/helper/lib/client/styles/colors.css";
 import "D:/github/InSUEP/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
@@ -35,16 +37,20 @@ export default {
     // inject global properties
     injectDarkMode(app);
 
-
+    app.component("BloggerInfo", BloggerInfo);
+    app.component("SocialMedias", SocialMedias);
   },
   setup: () => {
     setupDarkMode();
     setupSidebarItems();
-
+    setupBlog();
   },
   layouts: {
     Layout,
     NotFound,
-
+    BlogCategory,
+    BlogHome,
+    BlogType,
+    Timeline,
   }
 };
