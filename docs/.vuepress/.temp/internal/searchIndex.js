@@ -640,6 +640,35 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "20级材料化学转电气及其自动化专业",
+    "headers": [
+      {
+        "level": 3,
+        "title": "选择材化的原因？",
+        "slug": "选择材化的原因",
+        "link": "#选择材化的原因",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "下面是材化专业第一的视角带你速通材化大一",
+        "slug": "下面是材化专业第一的视角带你速通材化大一",
+        "link": "#下面是材化专业第一的视角带你速通材化大一",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "16级同济物理考研经验",
     "headers": [],
     "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
@@ -722,35 +751,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "20级材料化学转电气及其自动化专业",
-    "headers": [
-      {
-        "level": 3,
-        "title": "选择材化的原因？",
-        "slug": "选择材化的原因",
-        "link": "#选择材化的原因",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "下面是材化专业第一的视角带你速通材化大一",
-        "slug": "下面是材化专业第一的视角带你速通材化大一",
-        "link": "#下面是材化专业第一的视角带你速通材化大一",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "总结",
-        "slug": "总结",
-        "link": "#总结",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -854,6 +854,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "转专业",
+    "headers": [],
+    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "考研指南",
     "headers": [],
     "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
@@ -864,13 +871,6 @@ export const SEARCH_INDEX = [
     "title": "Veteran",
     "headers": [],
     "path": "/SUEP-Book-main/Veteran/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "转专业",
-    "headers": [],
-    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -910,3 +910,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
