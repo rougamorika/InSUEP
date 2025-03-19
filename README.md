@@ -2,12 +2,12 @@
 
 ## 提示
 
-贡献请提交PR到debug分支，感谢。
+贡献请提交 PR 到 debug 分支，感谢。
 
 ## setup hint
 
-推荐使用vscode进行编程，推荐使用vue拓展\
-请先安装node>=21, npm>=10.9.2, vue\
+推荐使用 vscode 进行编程，推荐使用 vue 拓展\
+请先安装 node>=21, yarn>=4.1.1, vue\
 目前已有以下插件：\
 @vuepress/bundler-vite\
 vuepress-plugin-md-enhance\
@@ -24,10 +24,9 @@ Inspired by [innenu](https://innenu.com/).
 
 1. 找更多的朋友来帮助完善界面美化;
 2. 打赢备案;
-3. 增加icons;
-4. 不使用npm，而是yarn替代.
+3. 增加 icons;
 
-# 交流QQ群
+# 交流 QQ 群
 
 726427904(上电算法竞赛交流群)
 

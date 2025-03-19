@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - debug # 监听 debug 分支的推送
+      - debug
 
 permissions:
   contents: read
@@ -22,16 +22,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: "22"
+          cache: "yarn" # Use yarn cache
 
       # 安装依赖
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       # 构建 VuePress 站点
       - name: Build VuePress Site
-        run: npm run build
+        run: yarn run build
 
       # Determine remote path based on branch
       - name: Determine Remote Path
@@ -48,8 +48,8 @@ jobs:
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
-          username: 'emptydust' #ssh user name
-          server: '${{ secrets.SERVER_IP }}'
+          username: "emptydust" #ssh user name
+          server: "${{ secrets.SERVER_IP }}"
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './docs/.vuepress/dist'
+          local_path: "./docs/.vuepress/dist"
           remote_path: ${{ steps.remote_path.outputs.remote_path }}

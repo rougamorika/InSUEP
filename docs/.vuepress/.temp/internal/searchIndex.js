@@ -73,6 +73,21 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "上海电力大学速通手册",
+        "slug": "上海电力大学速通手册",
+        "link": "#上海电力大学速通手册",
+        "children": []
+      }
+    ],
+    "path": "/SUEP-Book-main/homepage.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "目录",
     "headers": [
       {
@@ -112,70 +127,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/SUEP-Book-main/SUMMARY.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "专业选择",
-    "headers": [],
-    "path": "/SUEP-Book-main/AdmissionGuide/0day.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于插班生",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是插班生",
-        "slug": "什么是插班生",
-        "link": "#什么是插班生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "插班生报考条件",
-        "slug": "插班生报考条件",
-        "link": "#插班生报考条件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "插班生考什么",
-        "slug": "插班生考什么",
-        "link": "#插班生考什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参加插班生考试的学校",
-        "slug": "参加插班生考试的学校",
-        "link": "#参加插班生考试的学校",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "插班生难度",
-        "slug": "插班生难度",
-        "link": "#插班生难度",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "如何看待插班生",
-        "slug": "如何看待插班生",
-        "link": "#如何看待插班生",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小心骗子",
-        "slug": "小心骗子",
-        "link": "#小心骗子",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -415,6 +366,70 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "专业选择",
+    "headers": [],
+    "path": "/SUEP-Book-main/AdmissionGuide/0day.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于插班生",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是插班生",
+        "slug": "什么是插班生",
+        "link": "#什么是插班生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "插班生报考条件",
+        "slug": "插班生报考条件",
+        "link": "#插班生报考条件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "插班生考什么",
+        "slug": "插班生考什么",
+        "link": "#插班生考什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参加插班生考试的学校",
+        "slug": "参加插班生考试的学校",
+        "link": "#参加插班生考试的学校",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "插班生难度",
+        "slug": "插班生难度",
+        "link": "#插班生难度",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何看待插班生",
+        "slug": "如何看待插班生",
+        "link": "#如何看待插班生",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小心骗子",
+        "slug": "小心骗子",
+        "link": "#小心骗子",
+        "children": []
+      }
+    ],
+    "path": "/SUEP-Book-main/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "声明",
     "headers": [],
     "path": "/SUEP-Book-main/Prologue/%E5%A3%B0%E6%98%8E.html",
@@ -454,92 +469,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/SUEP-Book-main/Prologue/%E5%BC%80%E5%8F%91%E8%80%85%E6%96%87%E6%A1%A3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "16级同济物理考研经验",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "22届西电网络空间安全考研经验",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在前面",
-        "slug": "写在前面",
-        "link": "#写在前面",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "择校",
-        "slug": "择校",
-        "link": "#择校",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "初试",
-        "slug": "初试",
-        "link": "#初试",
-        "children": [
-          {
-            "level": 3,
-            "title": "数一",
-            "slug": "数一",
-            "link": "#数一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "英一",
-            "slug": "英一",
-            "link": "#英一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "专业课",
-            "slug": "专业课",
-            "link": "#专业课",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "政治",
-            "slug": "政治",
-            "link": "#政治",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他",
-            "slug": "其他",
-            "link": "#其他",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "复试",
-        "slug": "复试",
-        "link": "#复试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最后",
-        "slug": "最后",
-        "link": "#最后",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -740,6 +669,92 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "16级同济物理考研经验",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "22届西电网络空间安全考研经验",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在前面",
+        "slug": "写在前面",
+        "link": "#写在前面",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "择校",
+        "slug": "择校",
+        "link": "#择校",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初试",
+        "slug": "初试",
+        "link": "#初试",
+        "children": [
+          {
+            "level": 3,
+            "title": "数一",
+            "slug": "数一",
+            "link": "#数一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "英一",
+            "slug": "英一",
+            "link": "#英一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "专业课",
+            "slug": "专业课",
+            "link": "#专业课",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "政治",
+            "slug": "政治",
+            "link": "#政治",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "复试",
+        "slug": "复试",
+        "link": "#复试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最后",
+        "slug": "最后",
+        "link": "#最后",
+        "children": []
+      }
+    ],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "21级光电转智能科学专业",
     "headers": [
       {
@@ -804,13 +819,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Admission Guide",
-    "headers": [],
-    "path": "/SUEP-Book-main/AdmissionGuide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Before Admission",
     "headers": [],
     "path": "/SUEP-Book-main/BeforeAdmission/",
@@ -818,23 +826,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Admission Guide",
+    "headers": [],
+    "path": "/SUEP-Book-main/AdmissionGuide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Prologue",
     "headers": [],
     "path": "/SUEP-Book-main/Prologue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "考研指南",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Veteran",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -856,6 +857,20 @@ export const SEARCH_INDEX = [
     "title": "转专业",
     "headers": [],
     "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "考研指南",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Veteran",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -891,21 +906,6 @@ export const SEARCH_INDEX = [
     "title": "Timeline",
     "headers": [],
     "path": "/timeline/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "上海电力大学速通手册",
-        "slug": "上海电力大学速通手册",
-        "link": "#上海电力大学速通手册",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/homepage.html",
     "pathLocale": "/",
     "extraFields": []
   }
