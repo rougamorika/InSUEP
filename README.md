@@ -1,9 +1,11 @@
 # InSUEP
 
 ## 提示
+
 贡献请提交PR到debug分支，感谢。
 
 ## setup hint
+
 推荐使用vscode进行编程，推荐使用vue拓展\
 请先安装node>=21, npm>=10.9.2, vue\
 目前已有以下插件：\
@@ -12,72 +14,25 @@ vuepress-plugin-md-enhance\
 vuepress\
 vuepress-theme-hope
 
-## 以下为默认readme
+# 致谢
 
-This template should help get you started developing with Vue 3 in Vite.
+感谢所有提出意见的同学和帮助完善界面、文档的朋友。
+感谢 [SUEP-book](https://github.com/SUEP-Plus/SUEP-Book) 的创作者向我们共享了他们的文档。
+Inspired by [innenu](https://innenu.com/).
 
-### Recommended IDE Setup
+# todo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. 找更多的朋友来帮助完善界面美化;
+2. 打赢备案;
+3. 增加icons;
+4. 不使用npm，而是yarn替代.
 
-### Type Support for `.vue` Imports in TS
+# 交流QQ群
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+726427904(上电算法竞赛交流群)
 
-### Customize configuration
+# LICENCE
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-### Project Setup
-
-```sh
-npm install
-```
-
-#### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-#### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-#### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-#### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-#### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-### LICENCE
 徽章：[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
 本作品采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议][cc-by-nc-nd]进行许可。
