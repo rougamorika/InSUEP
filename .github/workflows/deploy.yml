@@ -23,15 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "22"
-          cache: "yarn" # Use yarn cache
-
-      # Enable Corepack
-      - name: Enable Corepack
-        run: corepack enable
 
       # Install correct yarn version using Corepack
       - name: Install Yarn 4.1.1
-        run: yarn set version 4.1.1
+        run: npm install -g corepack@v0.29.4 && corepack install --global yarn@4.1.1
 
       # Install dependencies
       - name: Install Dependencies
