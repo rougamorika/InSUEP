@@ -18,14 +18,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 安装 Node.js
+      # 安装 Node.js and Corepack
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "22"
           cache: "yarn" # Use yarn cache
 
-      # 安装依赖
+      # Enable Corepack
+      - name: Enable Corepack
+        run: corepack enable
+
+      # Install correct yarn version using Corepack
+      - name: Install Yarn 4.1.1
+        run: yarn set version 4.1.1
+
+      # Install dependencies
       - name: Install Dependencies
         run: yarn install
 
