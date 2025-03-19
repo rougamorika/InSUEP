@@ -25,6 +25,8 @@ Inspired by [innenu](https://innenu.com/).
 1. 找更多的朋友来帮助完善界面美化;
 2. 打赢备案;
 3. 增加 icons;
+4. 丰富网页内容;
+5. 增加主页美化和功能.
 
 # 交流 QQ 群
 
