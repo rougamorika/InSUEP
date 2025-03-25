@@ -1,7 +1,5 @@
 <template><div><h1 id="我的新页面" tabindex="-1"><a class="header-anchor" href="#我的新页面"><span>我的新页面</span></a></h1>
-<p>这是我的新页面的内容。</p>
-<p>这是一个链接： <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">VuePress</a></p>
-<p><img src="https://vuepress.vuejs.org/hero.png" alt="VuePress Logo"></p>
+<p><img src="https://bu.dusays.com/2025/03/20/67dbbc5e48863.jpg" alt="VuePress Logo"></p>
 <h2 id="任务列表" tabindex="-1"><a class="header-anchor" href="#任务列表"><span>任务列表</span></a></h2>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 学习 VuePress</label></li>

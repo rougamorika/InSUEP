@@ -31,7 +31,7 @@ export default defineUserConfig({
           children: [
             '/guide/README.md',
             '/guide/getting-started.md',
-            '/guide/configuration.md',
+            '/guide/configuration.md',  
           ],
         },
       ],
