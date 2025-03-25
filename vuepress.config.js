@@ -22,7 +22,7 @@ export default {
     ],
     sidebar: 'structure',
     displayFooter: true, // 是否显示页脚
-    footer: 'CC BY-NC-ND 4.0 Licensed | Copyright © 2024 inSUEP', // 自定义页脚内容
+    footer: 'CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备2025118581号-1</a>',
     copyright: 'Copyright © 2024 inSUEP', // 版权信息
 
     encrypt: {

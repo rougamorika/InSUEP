@@ -1,8 +1,12 @@
 # InSUEP
 
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
+
 ## 提示
 
 贡献请提交 PR 到 debug 分支，感谢。
+
+请保证本地运行 yarn build 后无报错再提交。
 
 ## setup hint
 
@@ -16,8 +20,8 @@ vuepress-theme-hope
 
 # 致谢
 
-感谢所有提出意见的同学和帮助完善界面、文档的朋友。
-感谢 [SUEP-book](https://github.com/SUEP-Plus/SUEP-Book) 的创作者向我们共享了他们的文档。
+感谢所有提出意见的同学和帮助完善界面、文档的朋友。\
+感谢 [SUEP-book](https://github.com/SUEP-Plus/SUEP-Book) 的创作者向我们共享了他们的文档。\
 Inspired by [innenu](https://innenu.com/).
 
 # todo
@@ -33,8 +37,6 @@ Inspired by [innenu](https://innenu.com/).
 726427904(上电算法竞赛交流群)
 
 # LICENCE
-
-徽章：[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
 本作品采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议][cc-by-nc-nd]进行许可。
 

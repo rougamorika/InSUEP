@@ -101,7 +101,7 @@ features:
     link: /zh/guide/feature/
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备2025118581号-1</a>
 ---
 
 ## 🛠 安装
