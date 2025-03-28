@@ -4,23 +4,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "🛠 安装",
-        "slug": "🛠-安装",
-        "link": "#🛠-安装",
+        "title": "提示",
+        "slug": "提示",
+        "link": "#提示",
         "children": []
       },
       {
         "level": 2,
-        "title": "🚀 使用",
-        "slug": "🚀-使用",
-        "link": "#🚀-使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "官方 QQ 群",
-        "slug": "官方-qq-群",
-        "link": "#官方-qq-群",
+        "title": "setup hint",
+        "slug": "setup-hint",
+        "link": "#setup-hint",
         "children": []
       }
     ],
@@ -110,7 +103,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "目录",
+    "title": "114514",
     "headers": [
       {
         "level": 2,
@@ -148,7 +141,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/SUMMARY.html",
+    "path": "/SUEP-Book-main/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -495,6 +488,92 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "16级同济物理考研经验",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "22届西电网络空间安全考研经验",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在前面",
+        "slug": "写在前面",
+        "link": "#写在前面",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "择校",
+        "slug": "择校",
+        "link": "#择校",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初试",
+        "slug": "初试",
+        "link": "#初试",
+        "children": [
+          {
+            "level": 3,
+            "title": "数一",
+            "slug": "数一",
+            "link": "#数一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "英一",
+            "slug": "英一",
+            "link": "#英一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "专业课",
+            "slug": "专业课",
+            "link": "#专业课",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "政治",
+            "slug": "政治",
+            "link": "#政治",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "复试",
+        "slug": "复试",
+        "link": "#复试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最后",
+        "slug": "最后",
+        "link": "#最后",
+        "children": []
+      }
+    ],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "关于网工",
     "headers": [
       {
@@ -691,92 +770,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "16级同济物理考研经验",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "22届西电网络空间安全考研经验",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在前面",
-        "slug": "写在前面",
-        "link": "#写在前面",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "择校",
-        "slug": "择校",
-        "link": "#择校",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "初试",
-        "slug": "初试",
-        "link": "#初试",
-        "children": [
-          {
-            "level": 3,
-            "title": "数一",
-            "slug": "数一",
-            "link": "#数一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "英一",
-            "slug": "英一",
-            "link": "#英一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "专业课",
-            "slug": "专业课",
-            "link": "#专业课",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "政治",
-            "slug": "政治",
-            "link": "#政治",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他",
-            "slug": "其他",
-            "link": "#其他",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "复试",
-        "slug": "复试",
-        "link": "#复试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最后",
-        "slug": "最后",
-        "link": "#最后",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "21级光电转智能科学专业",
     "headers": [
       {
@@ -827,13 +820,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "SUEP Book Main",
-    "headers": [],
-    "path": "/SUEP-Book-main/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Admission Guide",
     "headers": [],
     "path": "/SUEP-Book-main/AdmissionGuide/",
@@ -855,6 +841,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "考研指南",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Veteran",
+    "headers": [],
+    "path": "/SUEP-Book-main/Veteran/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "学习指南",
     "headers": [],
     "path": "/SUEP-Book-main/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/",
@@ -872,20 +872,6 @@ export const SEARCH_INDEX = [
     "title": "转专业",
     "headers": [],
     "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "考研指南",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Veteran",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/",
     "pathLocale": "/",
     "extraFields": []
   },

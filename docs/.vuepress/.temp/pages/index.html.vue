@@ -1,40 +1,33 @@
-<template><div><h2 id="🛠-安装" tabindex="-1"><a class="header-anchor" href="#🛠-安装"><span>🛠 安装</span></a></h2>
-<p>在当前目录下的 <code v-pre>&lt;dir&gt;</code> 文件夹内创建 vuepress-theme-hope 项目:</p>
-<p>::: code-tabs#shell</p>
-<p>@tab pnpm</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pnpm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> create</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vuepress-theme-hope</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">di</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">r></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>@tab npm</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> init</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vuepress-theme-hope@latest</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">di</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">r></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>:::</p>
-<p>要将 vuepress-theme-hope 作为文档构建器添加到现有项目中，请在项目根目录中运行以下命令:</p>
-<p>::: code-tabs#shell</p>
-<p>@tab pnpm</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pnpm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> create</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vuepress-theme-hope</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">di</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">r></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>@tab npm</p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> init</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> vuepress-theme-hope@latest</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> &#x3C;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">di</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">r></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>:::</p>
-<h2 id="🚀-使用" tabindex="-1"><a class="header-anchor" href="#🚀-使用"><span>🚀 使用</span></a></h2>
-<div class="code-block-title">
-  <div class="code-block-title-bar">
-    <span class="title" data-title=".vuepress/config.ts">.vuepress/config.ts</span>
-  </div>
-  <div class="language-ts line-numbers-mode" data-highlighter="shiki" data-ext="ts" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">import</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> { </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">hopeTheme</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> } </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">from</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'vuepress-theme-hope'</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">export</span><span style="--shiki-light:#E45649;--shiki-dark:#C678DD"> default</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  // 站点选项</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">  // ...</span></span>
-<span class="line"></span>
-<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">  theme</span><span style="--shiki-light:#0184BC;--shiki-dark:#ABB2BF">:</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> hopeTheme</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">({</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // 主题选项</span></span>
-<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // ...</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  }),</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>
-</div><h2 id="官方-qq-群" tabindex="-1"><a class="header-anchor" href="#官方-qq-群"><span>官方 QQ 群</span></a></h2>
-<ul>
-<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
-</ul>
-<!-- markdownlint-disable -->
+<template><div><h1 id="insuep" tabindex="-1"><a class="header-anchor" href="#insuep"><span>InSUEP</span></a></h1>
+<p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-CC BY--NC--ND 4.0-lightgrey.svg" alt="CC BY-NC-ND 4.0"></a></p>
+<h2 id="提示" tabindex="-1"><a class="header-anchor" href="#提示"><span>提示</span></a></h2>
+<p>贡献请提交 PR 到 debug 分支，感谢。</p>
+<p>请保证本地运行 yarn build 后无报错再提交。</p>
+<h2 id="setup-hint" tabindex="-1"><a class="header-anchor" href="#setup-hint"><span>setup hint</span></a></h2>
+<p>推荐使用 vscode 进行编程，推荐使用 vue 拓展<br>
+请先安装 node&gt;=21, yarn&gt;=4.1.1, vue<br>
+目前已有以下插件：<br>
+@vuepress/bundler-vite<br>
+vuepress-plugin-md-enhance<br>
+vuepress<br>
+vuepress-theme-hope</p>
+<h1 id="致谢" tabindex="-1"><a class="header-anchor" href="#致谢"><span>致谢</span></a></h1>
+<p>感谢所有提出意见的同学和帮助完善界面、文档的朋友。<br>
+感谢 <a href="https://github.com/SUEP-Plus/SUEP-Book" target="_blank" rel="noopener noreferrer">SUEP-book</a> 的创作者向我们共享了他们的文档。<br>
+Inspired by <a href="https://innenu.com/" target="_blank" rel="noopener noreferrer">innenu</a>.</p>
+<h1 id="todo" tabindex="-1"><a class="header-anchor" href="#todo"><span>todo</span></a></h1>
+<ol>
+<li>找更多的朋友来帮助完善界面美化;</li>
+<li>打赢备案;</li>
+<li>增加 icons;</li>
+<li>丰富网页内容;</li>
+<li>增加主页美化和功能.</li>
+</ol>
+<h1 id="交流-qq-群" tabindex="-1"><a class="header-anchor" href="#交流-qq-群"><span>交流 QQ 群</span></a></h1>
+<p>726427904(上电算法竞赛交流群)</p>
+<h1 id="licence" tabindex="-1"><a class="header-anchor" href="#licence"><span>LICENCE</span></a></h1>
+<p>本作品采用<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。</p>
+<p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer"><img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="CC BY-NC-ND 4.0"></a></p>
 </div></template>
 
 
