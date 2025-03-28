@@ -2,9 +2,9 @@
 home: true
 title: 功能项目主页
 icon: home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: VuePress Theme Hope
-tagline: 一个具有强大功能的 vuepress 主题✨
+heroImage: https://bu.dusays.com/2025/03/21/67dc3ca22d617.jpg
+heroText: InSUEP
+tagline: 上海电力大学信息直通车
 actions:
   - text: 快速上手
     link: /zh/get-started/
@@ -104,62 +104,50 @@ copyright: false
 footer: CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备2025118581号-1</a>
 ---
 
-## 🛠 安装
+# InSUEP
 
-在当前目录下的 `<dir>` 文件夹内创建 vuepress-theme-hope 项目:
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-::: code-tabs#shell
+## 提示
 
-@tab pnpm
+贡献请提交 PR 到 debug 分支，感谢。
 
-```bash
-pnpm create vuepress-theme-hope <dir>
-```
+请保证本地运行 yarn build 后无报错再提交。
 
-@tab npm
+## setup hint
 
-```bash
-npm init vuepress-theme-hope@latest <dir>
-```
+推荐使用 vscode 进行编程，推荐使用 vue 拓展\
+请先安装 node>=21, yarn>=4.1.1, vue\
+目前已有以下插件：\
+@vuepress/bundler-vite\
+vuepress-plugin-md-enhance\
+vuepress\
+vuepress-theme-hope
 
-:::
+# 致谢
 
-要将 vuepress-theme-hope 作为文档构建器添加到现有项目中，请在项目根目录中运行以下命令:
+感谢所有提出意见的同学和帮助完善界面、文档的朋友。\
+感谢 [SUEP-book](https://github.com/SUEP-Plus/SUEP-Book) 的创作者向我们共享了他们的文档。\
+Inspired by [innenu](https://innenu.com/).
 
-::: code-tabs#shell
+# todo
 
-@tab pnpm
+1. 找更多的朋友来帮助完善界面美化;
+2. 打赢备案;
+3. 增加 icons;
+4. 丰富网页内容;
+5. 增加主页美化和功能.
 
-```bash
-pnpm create vuepress-theme-hope add <dir>
-```
+# 交流 QQ 群
 
-@tab npm
+726427904(上电算法竞赛交流群)
 
-```bash
-npm init vuepress-theme-hope@latest add <dir>
-```
+# LICENCE
 
-:::
+本作品采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议][cc-by-nc-nd]进行许可。
 
-## 🚀 使用
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
-```ts twoslash title=".vuepress/config.ts"
-import { hopeTheme } from 'vuepress-theme-hope'
-
-export default {
-  // 站点选项
-  // ...
-
-  theme: hopeTheme({
-    // 主题选项
-    // ...
-  }),
-}
-```
-
-## 官方 QQ 群
-
-- [点击加入](https://jq.qq.com/?_wv=1027&k=rATJyxGK) (群号: 1003437555)
-
-<!-- markdownlint-disable -->
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
