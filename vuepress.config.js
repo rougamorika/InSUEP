@@ -16,8 +16,8 @@ export default {
         link: '/',
       },
       {
-        text: '新页面',
-        link: '/guide/new_md.md',
+        text: 'SUEP-Book-main',
+        link: '/Preface.md',
       },
     ],
     sidebar: 'structure',
