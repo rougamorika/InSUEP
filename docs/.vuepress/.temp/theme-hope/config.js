@@ -6,9 +6,9 @@ import { resolveComponent } from "vue"
 import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "D:/github/InSUEP/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
 import "D:/github/InSUEP/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
 
-import "D:/github/InSUEP/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/colors.css";
-import "D:/github/InSUEP/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "D:/github/InSUEP/node_modules/vuepress-theme-hope/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
+import "D:/github/InSUEP/node_modules/@vuepress/helper/lib/client/styles/colors.css";
+import "D:/github/InSUEP/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "D:/github/InSUEP/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
 import "D:/github/InSUEP/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {

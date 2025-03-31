@@ -1,5 +1,20 @@
 export const SEARCH_INDEX = [
   {
+    "title": "序",
+    "headers": [
+      {
+        "level": 2,
+        "title": "上海电力大学速通手册",
+        "slug": "上海电力大学速通手册",
+        "link": "#上海电力大学速通手册",
+        "children": []
+      }
+    ],
+    "path": "/Preface.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "功能项目主页",
     "headers": [
       {
@@ -15,96 +30,7 @@ export const SEARCH_INDEX = [
         "slug": "setup-hint",
         "link": "#setup-hint",
         "children": []
-      }
-    ],
-    "path": "/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "这不是一个首页",
-    "headers": [],
-    "path": "/test.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "MyButton 组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "示例用法",
-        "slug": "示例用法",
-        "link": "#示例用法",
-        "children": []
-      }
-    ],
-    "path": "/components/Test.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "我的新页面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "任务列表",
-        "slug": "任务列表",
-        "link": "#任务列表",
-        "children": []
       },
-      {
-        "level": 2,
-        "title": "自定义容器",
-        "slug": "自定义容器",
-        "link": "#自定义容器",
-        "children": []
-      }
-    ],
-    "path": "/guide/new_md.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "我的新页面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "任务列表",
-        "slug": "任务列表",
-        "link": "#任务列表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "自定义容器",
-        "slug": "自定义容器",
-        "link": "#自定义容器",
-        "children": []
-      }
-    ],
-    "path": "/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "上海电力大学速通手册",
-        "slug": "上海电力大学速通手册",
-        "link": "#上海电力大学速通手册",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/homepage.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "114514",
-    "headers": [
       {
         "level": 2,
         "title": "序",
@@ -141,14 +67,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/",
+    "path": "/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "专业选择",
     "headers": [],
-    "path": "/SUEP-Book-main/AdmissionGuide/0day.html",
+    "path": "/AdmissionGuide/0day.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -205,7 +131,43 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html",
+    "path": "/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "常见诈骗/推销",
+    "headers": [
+      {
+        "level": 2,
+        "title": "商品推销",
+        "slug": "商品推销",
+        "link": "#商品推销",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "补习班推销员",
+        "slug": "补习班推销员",
+        "link": "#补习班推销员",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "QQ/微信群广告",
+        "slug": "qq-微信群广告",
+        "link": "#qq-微信群广告",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "虚假抽奖",
+        "slug": "虚假抽奖",
+        "link": "#虚假抽奖",
+        "children": []
+      }
+    ],
+    "path": "/AdmissionGuide/%E9%98%B2%E8%AF%88%E9%AA%97%E6%8C%87%E5%8D%97.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -234,14 +196,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/BeforeAdmission/%E5%A1%AB%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97.html",
+    "path": "/BeforeAdmission/%E5%A1%AB%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "专业选择",
     "headers": [],
-    "path": "/SUEP-Book-main/BeforeAdmission/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%B8%93%E4%B8%9A.html",
+    "path": "/BeforeAdmission/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%B8%93%E4%B8%9A.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -440,14 +402,14 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/SUEP-Book-main/BeforeAdmission/%E5%AD%A6%E6%A0%A1%E4%BB%8B%E7%BB%8D.html",
+    "path": "/BeforeAdmission/%E5%AD%A6%E6%A0%A1%E4%BB%8B%E7%BB%8D.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "声明",
     "headers": [],
-    "path": "/SUEP-Book-main/Prologue/%E5%A3%B0%E6%98%8E.html",
+    "path": "/Prologue/%E5%A3%B0%E6%98%8E.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -483,93 +445,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/Prologue/%E5%BC%80%E5%8F%91%E8%80%85%E6%96%87%E6%A1%A3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "16级同济物理考研经验",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "22届西电网络空间安全考研经验",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在前面",
-        "slug": "写在前面",
-        "link": "#写在前面",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "择校",
-        "slug": "择校",
-        "link": "#择校",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "初试",
-        "slug": "初试",
-        "link": "#初试",
-        "children": [
-          {
-            "level": 3,
-            "title": "数一",
-            "slug": "数一",
-            "link": "#数一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "英一",
-            "slug": "英一",
-            "link": "#英一",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "专业课",
-            "slug": "专业课",
-            "link": "#专业课",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "政治",
-            "slug": "政治",
-            "link": "#政治",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他",
-            "slug": "其他",
-            "link": "#其他",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "复试",
-        "slug": "复试",
-        "link": "#复试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最后",
-        "slug": "最后",
-        "link": "#最后",
-        "children": []
-      }
-    ],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "path": "/Prologue/%E5%BC%80%E5%8F%91%E8%80%85%E6%96%87%E6%A1%A3.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -599,7 +475,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B-18%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html",
+    "path": "/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B-18%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -686,7 +562,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E9%99%A2%E7%9A%84%E5%85%A8%E6%A0%88%E5%85%BB%E6%88%90-19%E7%BA%A7%E6%B5%8B%E6%8E%A7%E5%AD%A6%E9%95%BF%E5%BB%BA%E8%AE%AE.html",
+    "path": "/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E9%99%A2%E7%9A%84%E5%85%A8%E6%A0%88%E5%85%BB%E6%88%90-19%E7%BA%A7%E6%B5%8B%E6%8E%A7%E5%AD%A6%E9%95%BF%E5%BB%BA%E8%AE%AE.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -736,7 +612,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%8B%B1%E8%AF%AD-20%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html",
+    "path": "/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%8B%B1%E8%AF%AD-20%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -765,7 +641,93 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html",
+    "path": "/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "16级同济物理考研经验",
+    "headers": [],
+    "path": "/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "22届西电网络空间安全考研经验",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在前面",
+        "slug": "写在前面",
+        "link": "#写在前面",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "择校",
+        "slug": "择校",
+        "link": "#择校",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初试",
+        "slug": "初试",
+        "link": "#初试",
+        "children": [
+          {
+            "level": 3,
+            "title": "数一",
+            "slug": "数一",
+            "link": "#数一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "英一",
+            "slug": "英一",
+            "link": "#英一",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "专业课",
+            "slug": "专业课",
+            "link": "#专业课",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "政治",
+            "slug": "政治",
+            "link": "#政治",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "复试",
+        "slug": "复试",
+        "link": "#复试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最后",
+        "slug": "最后",
+        "link": "#最后",
+        "children": []
+      }
+    ],
+    "path": "/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -801,7 +763,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/21%E7%BA%A7%E5%85%89%E7%94%B5%E8%BD%AC%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A/",
+    "path": "/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/21%E7%BA%A7%E5%85%89%E7%94%B5%E8%BD%AC%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -813,65 +775,58 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Components",
-    "headers": [],
-    "path": "/components/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Admission Guide",
     "headers": [],
-    "path": "/SUEP-Book-main/AdmissionGuide/",
+    "path": "/AdmissionGuide/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Before Admission",
     "headers": [],
-    "path": "/SUEP-Book-main/BeforeAdmission/",
+    "path": "/BeforeAdmission/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Prologue",
     "headers": [],
-    "path": "/SUEP-Book-main/Prologue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "考研指南",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Veteran",
-    "headers": [],
-    "path": "/SUEP-Book-main/Veteran/",
+    "path": "/Prologue/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "学习指南",
     "headers": [],
-    "path": "/SUEP-Book-main/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/",
+    "path": "/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Half Cooked",
     "headers": [],
-    "path": "/SUEP-Book-main/HalfCooked/",
+    "path": "/HalfCooked/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "转专业",
     "headers": [],
-    "path": "/SUEP-Book-main/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
+    "path": "/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "考研指南",
+    "headers": [],
+    "path": "/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Veteran",
+    "headers": [],
+    "path": "/Veteran/",
     "pathLocale": "/",
     "extraFields": []
   },
