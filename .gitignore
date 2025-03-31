@@ -53,7 +53,7 @@ coverage
 .npm
 .eslintcache
 .stylelintcache
-.tsbuildinfo
+*.tsbuildinfo
 
 # Test-related files
 test-results/
