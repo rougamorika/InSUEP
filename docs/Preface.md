@@ -1,5 +1,5 @@
 ---
-title: 序
+title: 写在前面
 ---
 <p style="text-align: center;">
     <img src="./static/imgs/logo.png" alt="suep icon" style="width: 70px; height: 70px"> 
@@ -7,11 +7,9 @@ title: 序
 </p>
 <p style="text-align: center;">致所有上海电力大学的学生（曾经、当前、未来）</p>
 
-## 上海电力大学速通手册
-本手册由上海电力大学学生共同撰写，列出了大学四年生活中的注意事项，包括衣食住行、选课上课、教师风评等
+# inSUEP
 
-同时由于考虑信息具有一定的实效性，我们将定期归档过时文档、并进行更新
+上海电力大学信息直通车（inSUEP）是上海电力大学学生共同编写 将2025/3开始的内容与[上海电力大学速通手册](https://github.com/SUEP-Plus/SUEP-Book)（SUEP-Book）部分旧文章归档 组成的全新指南 旨在介绍上电的方方面面 为新老学生提供信息上的便利
 
-如果有任何建议或意见，请通过github issue的方式提交，投稿请投递至邮箱(待定)，通过审核和修订后的每一章（经本人同意的情况下）将会标明作者
+该网站仍旧处于建设阶段 在设计与内容方面需要大量修改与填补 若有任何相关建议和意见 请阅读[github项目页面](https://github.com/EmptyDust/InSUEP) 并加入我们
 
-本手册现在依旧处于最初编写状态，需要大量内容和文章，你可以在 https://github.com/SUEP-Plus/SUEP-Book 提出 issue 加入 project ，或者使用 fork 和 pull request 流进行工作。
