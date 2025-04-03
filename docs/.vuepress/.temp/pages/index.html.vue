@@ -35,18 +35,18 @@ Inspired by <a href="https://innenu.com/" target="_blank" rel="noopener noreferr
 <h2 id="序" tabindex="-1"><a class="header-anchor" href="#序"><span>序</span></a></h2>
 <ul>
 <li><RouteLink to="/Preface.html">写在前面</RouteLink></li>
-<li><RouteLink to="/Prologue/%E5%BC%80%E5%8F%91%E8%80%85%E6%96%87%E6%A1%A3.html">开发者须知</RouteLink></li>
-<li><RouteLink to="/Prologue/%E5%A3%B0%E6%98%8E.html">声明</RouteLink></li>
+<li><RouteLink to="/%E5%BC%80%E5%8F%91%E9%A1%BB%E7%9F%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%96%87%E6%A1%A3.html">开发者须知</RouteLink></li>
+<li><RouteLink to="/%E5%BC%80%E5%8F%91%E9%A1%BB%E7%9F%A5/%E5%A3%B0%E6%98%8E.html">声明</RouteLink></li>
 </ul>
 <h2 id="入学之前" tabindex="-1"><a class="header-anchor" href="#入学之前"><span>入学之前</span></a></h2>
 <ul>
-<li><RouteLink to="/BeforeAdmission/%E5%AD%A6%E6%A0%A1%E4%BB%8B%E7%BB%8D.html">学校介绍</RouteLink></li>
-<li><RouteLink to="/BeforeAdmission/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%B8%93%E4%B8%9A.html">如何选择专业</RouteLink></li>
-<li><RouteLink to="/BeforeAdmission/%E5%A1%AB%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97.html">填志愿指南</RouteLink></li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E4%B9%8B%E5%89%8D/%E5%AD%A6%E6%A0%A1%E4%BB%8B%E7%BB%8D.html">学校介绍</RouteLink></li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E4%B9%8B%E5%89%8D/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E4%B8%93%E4%B8%9A.html">如何选择专业</RouteLink></li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E4%B9%8B%E5%89%8D/%E5%A1%AB%E5%BF%97%E6%84%BF%E6%8C%87%E5%8D%97.html">填志愿指南</RouteLink></li>
 </ul>
 <h2 id="入学指南" tabindex="-1"><a class="header-anchor" href="#入学指南"><span>入学指南</span></a></h2>
 <ul>
-<li><RouteLink to="/AdmissionGuide/0day.html">第0天 欢迎来到上海电力大学</RouteLink></li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E6%8C%87%E5%8D%97/0day.html">第0天 欢迎来到上海电力大学</RouteLink></li>
 <li>入学准备
 <ul>
 <li>买什么</li>
@@ -62,8 +62,8 @@ Inspired by <a href="https://innenu.com/" target="_blank" rel="noopener noreferr
 <li>陷阱与机遇
 <ul>
 <li>学长的被子</li>
-<li><RouteLink to="/AdmissionGuide/%E6%8F%92%E7%8F%AD%E7%94%9F.html">插班生</RouteLink></li>
-<li>笔能不能买</li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E6%8C%87%E5%8D%97/%E6%8F%92%E7%8F%AD%E7%94%9F.html">插班生</RouteLink></li>
+<li><RouteLink to="/%E5%85%A5%E5%AD%A6%E6%8C%87%E5%8D%97/%E9%98%B2%E8%AF%88%E9%AA%97%E6%8C%87%E5%8D%97.html">防诈骗指南</RouteLink></li>
 <li>信用卡</li>
 <li>驾校</li>
 </ul>
@@ -86,15 +86,15 @@ Inspired by <a href="https://innenu.com/" target="_blank" rel="noopener noreferr
 </li>
 <li>本科专业学习指北
 <ul>
-<li><RouteLink to="/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%8B%B1%E8%AF%AD-20%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html">英语-20级学姐建议</RouteLink></li>
-<li><RouteLink to="/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B-18%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html">网络工程-18级学姐建议</RouteLink></li>
-<li><RouteLink to="/HalfCooked/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E9%99%A2%E7%9A%84%E5%85%A8%E6%A0%88%E5%85%BB%E6%88%90-19%E7%BA%A7%E6%B5%8B%E6%8E%A7%E5%AD%A6%E9%95%BF%E5%BB%BA%E8%AE%AE.html">自动化学院的全栈养成-19级测控学长建议</RouteLink></li>
+<li><RouteLink to="/5%E5%88%86%E7%86%9F/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%8B%B1%E8%AF%AD-20%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html">英语-20级学姐建议</RouteLink></li>
+<li><RouteLink to="/5%E5%88%86%E7%86%9F/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B-18%E7%BA%A7%E5%AD%A6%E5%A7%90%E5%BB%BA%E8%AE%AE.html">网络工程-18级学姐建议</RouteLink></li>
+<li><RouteLink to="/5%E5%88%86%E7%86%9F/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E9%99%A2%E7%9A%84%E5%85%A8%E6%A0%88%E5%85%BB%E6%88%90-19%E7%BA%A7%E6%B5%8B%E6%8E%A7%E5%AD%A6%E9%95%BF%E5%BB%BA%E8%AE%AE.html">自动化学院的全栈养成-19级测控学长建议</RouteLink></li>
 </ul>
 </li>
 <li>转专业指北
 <ul>
-<li><RouteLink to="/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/21%E7%BA%A7%E5%85%89%E7%94%B5%E8%BD%AC%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A/">21级光电信息转智能科学与技术</RouteLink></li>
-<li><RouteLink to="/HalfCooked/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html">20级材料化学转电气及其自动化专业</RouteLink></li>
+<li><RouteLink to="/5%E5%88%86%E7%86%9F/%E8%BD%AC%E4%B8%93%E4%B8%9A/21%E7%BA%A7%E5%85%89%E7%94%B5%E8%BD%AC%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A/">21级光电信息转智能科学与技术</RouteLink></li>
+<li><RouteLink to="/5%E5%88%86%E7%86%9F/%E8%BD%AC%E4%B8%93%E4%B8%9A/20%E7%BA%A7%E6%9D%90%E6%96%99%E5%8C%96%E5%AD%A6%E8%BD%AC%E7%94%B5%E6%B0%94%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%93%E4%B8%9A.html">20级材料化学转电气及其自动化专业</RouteLink></li>
 </ul>
 </li>
 <li>米其林(食堂)指南
@@ -141,8 +141,8 @@ Inspired by <a href="https://innenu.com/" target="_blank" rel="noopener noreferr
 </li>
 <li>考研指南
 <ul>
-<li><RouteLink to="/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html">22届-西电-网络空间安全经验</RouteLink></li>
-<li><RouteLink to="/Veteran/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html">16级-同济-物理考研经验</RouteLink></li>
+<li><RouteLink to="/%E8%80%81%E7%94%9F%E5%85%A5%E9%97%A8/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/22%E5%B1%8A%E8%A5%BF%E7%94%B5%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html">22届-西电-网络空间安全经验</RouteLink></li>
+<li><RouteLink to="/%E8%80%81%E7%94%9F%E5%85%A5%E9%97%A8/%E8%80%83%E7%A0%94%E6%8C%87%E5%8D%97/16%E7%BA%A7%E5%90%8C%E6%B5%8E%E7%89%A9%E7%90%86%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C.html">16级-同济-物理考研经验</RouteLink></li>
 </ul>
 </li>
 <li>出国指南</li>

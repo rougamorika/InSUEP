@@ -37,7 +37,9 @@ export default defineUserConfig({
       ],
       '/components/': 'structure', // 根据目录结构生成侧边栏
     },
-
+    markdown: {
+      alert: true,
+    },
     // 额外功能
     editLink: true,
     lastUpdated: true,
@@ -64,6 +66,7 @@ export default defineUserConfig({
         container: true, 
         tabs: true
       }),
+      
   ]
 
 });
