@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://bu.dusays.com/2025/03/21/67dc3ca22d617.jpg" alt="InSUEP Logo" width="200">
-  <h1>InSUEP - 上海电力大学信息直通车</h1>
+  <h1>✨ InSUEP - 上海电力大学信息直通车 ✨</h1>
   
   ![VuePress](https://img.shields.io/badge/VuePress-2.0.0--rc.0-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
   ![Vue](https://img.shields.io/badge/Vue-3.0.0-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
@@ -8,18 +8,18 @@
   ![Yarn](https://img.shields.io/badge/Yarn-4.1.1-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
   [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-  <p>信息共享，让电专不再电专</p>
+  <p>💫 信息共享，让电专不再电专 💫</p>
 </div>
 
 <p align="center">
-  <a href="#-项目概述">项目概述</a> •
-  <a href="#-特性">特性</a> •
-  <a href="#-开始使用">开始使用</a> •
-  <a href="#-项目结构">项目结构</a> •
-  <a href="#-开发指南">开发指南</a> •
-  <a href="#-贡献指南">贡献指南</a> •
-  <a href="#-许可协议">许可协议</a> •
-  <a href="#-致谢">致谢</a>
+  <a href="#-项目概述">📖 项目概述</a> •
+  <a href="#-特性">✨ 特性</a> •
+  <a href="#-开始使用">🚀 开始使用</a> •
+  <a href="#-项目结构">📁 项目结构</a> •
+  <a href="#-开发指南">🧪 开发指南</a> •
+  <a href="#-贡献指南">🤝 贡献指南</a> •
+  <a href="#-许可协议">📝 许可协议</a> •
+  <a href="#-致谢">🙏 致谢</a>
 </p>
 
 ---
@@ -40,12 +40,12 @@ InSUEP（上海电力大学信息直通车）是一个由上海电力大学学�
 
 ## 🚀 开始使用
 
-### 环境要求
+### 🛠️ 环境要求
 
 - Node.js (推荐 LTS 版本)
 - Yarn 4.1.1 或更高版本
 
-### 安装与运行
+### 📥 安装与运行
 
 1. **克隆仓库**
 
@@ -94,7 +94,7 @@ InSUEP/
 
 ## 🧪 开发指南
 
-### 技术栈
+### 🔧 技术栈
 
 - **VuePress 2.0**: 文档框架
 - **Vue 3**: 前端框架
@@ -102,20 +102,20 @@ InSUEP/
 - **SASS**: 样式处理
 - **Yarn**: 包管理
 
-### 开发环境设置
+### 💻 开发环境设置
 
 推荐使用 VSCode 进行开发，并安装以下扩展：
 - Vue Language Features (Volar)
 - ESLint
 - Prettier
 
-### 环境要求
+### 📋 环境要求
 
 - Node.js >= 21
 - Yarn >= 4.1.1
 - Vue
 
-### 已安装插件
+### 🔌 已安装插件
 
 - @vuepress/bundler-vite
 - vuepress-plugin-md-enhance
@@ -126,7 +126,7 @@ InSUEP/
 
 我们非常欢迎各种形式的贡献！无论是新功能、内容更新、bug 修复还是文档改进。
 
-### 贡献步骤
+### 🔄 贡献步骤
 
 1. Fork 本仓库
 2. 创建你的特性分支 (`git checkout -b feature/amazing-feature`)
@@ -134,7 +134,7 @@ InSUEP/
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启一个 Pull Request
 
-### 注意事项
+### ⚠️ 注意事项
 
 - **请将 PR 提交到 `debug` 分支**，而不是 `main` 分支
 - 提交前请确保本地运行 `yarn build` 无错误
@@ -142,10 +142,10 @@ InSUEP/
 
 ## 📋 待办事项
 
-- [ ] 寻找更多志愿者完善界面美化
-- [ ] 增加图标资源
-- [ ] 丰富网站内容
-- [ ] 改进主页设计和功能
+- [ ] 🎨 寻找更多志愿者完善界面美化
+- [ ] 🖼️ 增加图标资源
+- [ ] 📚 丰富网站内容
+- [ ] 🏗️ 改进主页设计和功能
 
 ## 🙏 致谢
 
@@ -155,8 +155,8 @@ InSUEP/
 
 ## 📞 联系我们
 
-- **QQ 交流群**: 726427904 (上电算法竞赛交流群)
-- **GitHub Issues**: 如有问题或建议，请在 GitHub 仓库中提出 issue
+- **💬 QQ 交流群**: 726427904 (上电算法竞赛交流群)
+- **🐞 GitHub Issues**: 如有问题或建议，请在 GitHub 仓库中提出 issue
 
 ## 📝 许可协议
 
