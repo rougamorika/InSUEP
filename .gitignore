@@ -100,3 +100,5 @@ playwright-report/
 
 # Output of 'npm pack'
 *.tgz
+yarn.lock
+yarn.lock
