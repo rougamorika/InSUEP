@@ -22,7 +22,7 @@ export default defineUserConfig({
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: '组件', link: '/components/' }, // 指向你的组件文档
-      //{ text: 'GitHub', link: 'https://github.com/EmptyDust/InSUEP' },
+      { text: 'GitHub', link: 'https://github.com/EmptyDust/InSUEP' },
     ],
     sidebar: {  // 侧边栏配置
       '/guide/': [
