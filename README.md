@@ -8,7 +8,7 @@
   ![Yarn](https://img.shields.io/badge/Yarn-4.1.1-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
   [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-  <p>💫 信息共享，让电专不再电专 💫</p>
+  <p>💫 信息共享，让上电更美好 💫</p>
 </div>
 
 <p align="center">

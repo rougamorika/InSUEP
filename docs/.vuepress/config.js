@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   lang: 'zh-CN',  // 根据你的文档语言设置
   title: 'InSUEP',
-  description: '信息共享，让电专不再电专',
+  description: '信息共享，让上电更美好',
 
   bundler: viteBundler({
     viteOptions: {},
