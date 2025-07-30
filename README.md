@@ -81,15 +81,34 @@ InSUEP（上海电力大学信息直通车）是一个由上海电力大学学�
 
 ```
 InSUEP/
-├── docs/              # 文档源文件
-│   ├── 入学之前/      # 入学前指南
-│   ├── 入学指南/      # 入学相关信息
-│   ├── 5分熟/         # 校园生活指南
-│   ├── 老生入门/      # 高年级学生指南
-│   └── .vuepress/    # VuePress 配置文件
-├── public/           # 静态资源
-├── package.json      # 项目依赖和脚本
-└── vuepress.config.js # VuePress 配置
+├── docs/                    # 文档源文件
+│   ├── 新生你好/           # 新生入学指南
+│   │   ├── 团组织转接.md
+│   │   ├── 宿舍指南.md
+│   │   └── QQ群/
+│   ├── 上电指南/           # 校园生活指南
+│   │   ├── 防诈骗指南.md
+│   │   ├── 插班生.md
+│   │   ├── 0day.md
+│   │   └── 食堂指南/
+│   ├── 学院与专业介绍/     # 专业相关信息
+│   │   └── 计算机科学与技术学院.md
+│   ├── 学校机构/           # 学校机构信息
+│   ├── 老生入门/           # 高年级学生指南
+│   │   └── 考研指南/
+│   ├── 开发须知/           # 开发相关文档
+│   │   ├── 声明.md
+│   │   └── 开发者文档.md
+│   ├── static/             # 静态资源
+│   ├── .vuepress/          # VuePress 配置文件
+│   ├── README.md           # 网站首页
+│   └── Preface.md          # 序言
+├── public/                 # 公共静态资源
+├── src/                    # 源代码
+├── package.json            # 项目依赖和脚本
+├── vuepress.config.js      # VuePress 配置
+├── vite.config.ts          # Vite 配置
+└── tsconfig.json           # TypeScript 配置
 ```
 
 ## 🧪 开发指南
@@ -101,10 +120,12 @@ InSUEP/
 - **TypeScript**: 类型安全
 - **SASS**: 样式处理
 - **Yarn**: 包管理
+- **Vite**: 构建工具
 
 ### 💻 开发环境设置
 
 推荐使用 VSCode 进行开发，并安装以下扩展：
+
 - Vue Language Features (Volar)
 - ESLint
 - Prettier
@@ -113,14 +134,14 @@ InSUEP/
 
 - Node.js >= 21
 - Yarn >= 4.1.1
-- Vue
+- Vue 3.0.0
 
 ### 🔌 已安装插件
 
 - @vuepress/bundler-vite
 - vuepress-plugin-md-enhance
-- vuepress
 - vuepress-theme-hope
+- @vuepress/plugin-search
 
 ## 🤝 贡献指南
 
@@ -139,6 +160,7 @@ InSUEP/
 - **请将 PR 提交到 `debug` 分支**，而不是 `main` 分支
 - 提交前请确保本地运行 `yarn build` 无错误
 - 遵循项目的代码风格和提交规范
+- 更多贡献指南请参阅[开发者文档](/开发须知/开发者文档.md)
 
 ## 📋 待办事项
 
@@ -146,17 +168,20 @@ InSUEP/
 - [ ] 🖼️ 增加图标资源
 - [ ] 📚 丰富网站内容
 - [ ] 🏗️ 改进主页设计和功能
+- [ ] 📝 完善各学院专业介绍
+- [ ] 🏢 补充学校机构信息
+
+## 📞 联系我们
+
+- **💬 QQ 交流群**:
+  - 726427904 (上电算法竞赛交流群)
+- **🐞 GitHub Issues**: 如有问题或建议，请在 GitHub 仓库中提出 issue
 
 ## 🙏 致谢
 
 - 感谢所有提出意见的同学和帮助完善界面、文档的朋友
 - 特别感谢 [SUEP-Book](https://github.com/SUEP-Plus/SUEP-Book) 的创作者分享了宝贵的文档内容
 - 项目灵感来源于 [innenu](https://innenu.com/)
-
-## 📞 联系我们
-
-- **💬 QQ 交流群**: 726427904 (上电算法竞赛交流群)
-- **🐞 GitHub Issues**: 如有问题或建议，请在 GitHub 仓库中提出 issue
 
 ## 📝 许可协议
 
