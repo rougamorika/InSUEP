@@ -18,23 +18,40 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 安装 Node.js and Corepack
+      # 安装 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "22"
 
-      # Install correct yarn version using Corepack
-      - name: Install Yarn 4.1.1
-        run: npm install -g corepack@v0.29.4 && corepack install --global yarn@4.1.1
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
 
-      # Install dependencies
+      # 获取 pnpm store directory
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      # 设置 pnpm cache
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      # 安装依赖
       - name: Install Dependencies
-        run: yarn install
+        run: pnpm install
 
       # 构建 VuePress 站点
       - name: Build VuePress Site
-        run: yarn run build
+        run: pnpm run build
 
       # Determine remote path based on branch
       - name: Determine Remote Path
