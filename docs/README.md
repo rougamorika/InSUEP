@@ -2,7 +2,7 @@
 home: true
 title: InSUEP - 上海电力大学信息直通车
 icon: home
-heroImage: https://bu.dusays.com/2025/03/21/67dc3ca22d617.jpg
+heroImage: https://i0.hdslb.com/bfs/new_dyn/468aecb5d3755218080179de286954c378595419.jpg
 heroText: InSUEP
 tagline: 信息共享，让上电更美好
 actions:
@@ -38,13 +38,9 @@ footer: CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://b
 
 ## 项目简介
 
-上海电力大学信息直通车（InSUEP）是上海电力大学学生共同编写的信息平台，整合了[SUEP-Book](https://github.com/SUEP-Plus/SUEP-Book)的优质内容，旨在为新老学生提供校园生活的方方面面的信息指南。
+上海电力大学信息直通车(InSUEP)是上海电力大学学生共同编写的信息平台，整合了[SUEP-Book](https://github.com/SUEP-Plus/SUEP-Book)的优质内容，旨在为新老学生提供校园生活的方方面面的信息指南。
 
 该项目使用 VuePress 2.0 构建，提供了清晰直观的界面，力求打造最全面的上电校园攻略。不论你是即将入学的新生，还是在校的学长学姐，都能在这里找到有用的信息。
-
-## 交流 QQ 群
-
-726427904 (上电算法竞赛交流群)
 
 ## 不能解决您的问题？
 
@@ -54,6 +50,12 @@ footer: CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://b
 [问卷链接](https://forms.cloud.microsoft/r/WxRDxmmax1)
 或使用微信/夸克等软件扫码填写
 ![](./static/imgs/form.png)
+
+## 联系我们
+
+**QQ Group:** 726427904 (SUEP计算机社算法竞赛部)
+**QQ:** 1422492074 (风铃夜行)
+**QQ:** 1429205886 (Yan233_)
 
 ## 致谢
 
