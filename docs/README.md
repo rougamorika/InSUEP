@@ -53,9 +53,9 @@ footer: CC BY-NC-ND 4.0 Licensed | Copyright © 2025 inSUEP | <a href="https://b
 
 ## 联系我们
 
-**QQ Group:** 726427904 (SUEP计算机社算法竞赛部)
-**QQ:** 1422492074 (风铃夜行)
-**QQ:** 1429205886 (Yan233_)
+- **QQ Group:** 726427904 (SUEP计算机社算法竞赛部)
+- **QQ:** 1422492074 (风铃夜行)
+- **QQ:** 1429205886 (Yan233_)
 
 ## 致谢
 
