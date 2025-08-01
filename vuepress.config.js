@@ -29,7 +29,7 @@ export default {
   theme: hopeTheme({
     // 站点信息
     hostname: "https://insuep.github.io",
-    logo: "/logo.png",
+    logo: "/logo.jpg",
     repo: "https://github.com/EmptyDust/InSUEP",
     repoLabel: "GitHub",
     docsDir: "docs",
