@@ -1,9 +1,8 @@
 ---
+title: 大学课程
 author: nirvana_felis
 description: "houz"
 ---
-
-# 专业选择
 
 大学四年的课程主要分公共基础课，专业基础课，专业核心课，选修课等。
 
