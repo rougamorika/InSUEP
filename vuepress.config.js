@@ -33,7 +33,7 @@ export default {
     repo: "https://github.com/EmptyDust/InSUEP",
     repoLabel: "GitHub",
     docsDir: "docs",
-    docsBranch: "main",
+    docsBranch: "debug",
 
     // 导航栏配置
     navbar: [
