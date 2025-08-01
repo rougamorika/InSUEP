@@ -8,7 +8,7 @@ export default {
     "上海电力大学学生共同编写的信息平台，为新老学生提供校园生活的方方面面的信息指南",
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "/阿空.jpg" }],
     [
       "meta",
       {
@@ -33,7 +33,7 @@ export default {
     repo: "https://github.com/EmptyDust/InSUEP",
     repoLabel: "GitHub",
     docsDir: "docs",
-    docsBranch: "main",
+    docsBranch: "debug",
 
     // 导航栏配置
     navbar: [
