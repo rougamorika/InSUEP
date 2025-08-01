@@ -2,7 +2,7 @@
 home: true
 title: InSUEP - 上海电力大学信息直通车
 icon: home
-heroImage: https://i0.hdslb.com/bfs/new_dyn/468aecb5d3755218080179de286954c378595419.jpg
+heroImage: https://bu.dusays.com/2025/03/21/67dc3ca22d617.jpg
 heroText: InSUEP
 tagline: 信息共享，让上电更美好
 actions:
