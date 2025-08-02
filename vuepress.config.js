@@ -25,7 +25,22 @@ export default {
     ],
     ["meta", { name: "author", content: "InSUEP Team" }],
   ],
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      css: {
+        preprocessorOptions: {
+          scss: {
+            // Removed additionalData to avoid @import/@use conflict
+          }
+        }
+      },
+      // 添加样式文件引入
+      define: {
+        __VUE_OPTIONS_API__: true,
+        __VUE_PROD_DEVTOOLS__: false,
+      },
+    },
+  }),
   theme: hopeTheme({
     // 站点信息
     hostname: "https://insuep.github.io",
@@ -49,7 +64,7 @@ export default {
       },
       {
         text: "🎓 新生你好",
-        link: "/新生你好/",
+        link: "/新生你好/README.md",
         icon: "bed",
       },
       {
@@ -123,6 +138,8 @@ export default {
         presentation: {
           plugins: ["highlight", "math", "search", "notes", "zoom"],
         },
+        // 启用HTML支持
+        html: true,
       },
 
       // 搜索插件
@@ -221,7 +238,7 @@ export default {
     backToTop: true,
 
     // 打印按钮
-    print: false,
+    print: true,
 
     // 纯净模式
     pure: false,
