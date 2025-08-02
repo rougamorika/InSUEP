@@ -6,8 +6,8 @@ const { frontmatter, page } = useData();
 
 const enabled = computed(() =>
   ["/apartment/", "/guide/", "/intro/", "/newcomer/", "/school/"].some((item) =>
-    page.value.path.startsWith(item),
-  ),
+    page.value.path.startsWith(item)
+  )
 );
 const id = computed(() => page.value.path.replace(/\.html$/, ""));
 </script>
