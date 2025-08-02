@@ -15,6 +15,8 @@ export default hopeTheme({
   copyright: "Copyright © 2025 InSUEP",
   displayFooter: true,
 
+  darkmode: "toggle",
+
   navbar: [
     {
       text: "首页",
